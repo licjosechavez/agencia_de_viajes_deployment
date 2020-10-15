@@ -7,11 +7,19 @@ git push heroku HEAD:master
 
 **** VARIABLES DE HEROKU
 
-mysql://b84834c06022c1:76bbcd3d@us-cdbr-east-02.cleardb.com/heroku_66516d7befbbc52?reconnect=true
+mysql://b412810aaaaba7:7ae3d19c@us-cdbr-east-02.cleardb.com/heroku_50b6cc5d1ff8dd6?reconnect=true
 
-USUARIO: b84834c06022c1
-PASS: 76bbcd3d
+USUARIO: b412810aaaaba7
+PASS: 7ae3d19c
 HOST: us-cdbr-east-02.cleardb.com
-DB: heroku_66516d7befbbc52
+DB: heroku_50b6cc5d1ff8dd6
+
+mysql://b412810aaaaba7:7ae3d19c@us-cdbr-east-02.cleardb.com/heroku_50b6cc5d1ff8dd6?reconnect=true
+
+
+
+CLEARDB_DATABASE_URL
+
+
 
 
