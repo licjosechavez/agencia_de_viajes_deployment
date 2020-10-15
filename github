@@ -1,1 +1,17 @@
 https://gist.github.com/juanpablogdl/d2eb7e93c22cf1b2a9c646fa1d8f293a
+
+
+heroku
+
+git push heroku HEAD:master
+
+**** VARIABLES DE HEROKU
+
+mysql://b84834c06022c1:76bbcd3d@us-cdbr-east-02.cleardb.com/heroku_66516d7befbbc52?reconnect=true
+
+USUARIO: b84834c06022c1
+PASS: 76bbcd3d
+HOST: us-cdbr-east-02.cleardb.com
+DB: heroku_66516d7befbbc52
+
+
