@@ -1,0 +1,26 @@
+extends ../layout/index
+block contenido
+   main.container.mt-5
+      .row
+         .col-md-5
+            img(src="img/nosotros.jpg", alt="Imagen de nosotros", class="img-fluid")
+         .col-md-7
+            h1 #{pagina}
+            blockquote "No hay nadie que ame el dolor mismo, que lo busque, lo encuentre y lo quiera, simplemente porque es el dolor."
+            p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id nisi vehicula enim tincidunt elementum. Sed et orci nisl. Praesent efficitur efficitur dolor, a eleifend velit scelerisque a. Fusce ex tortor, euismod sed sollicitudin sit amet, pulvinar a augue. Donec nec odio ut ipsum mollis auctor sed ac risus.
+            p Sed convallis vulputate velit, vitae condimentum nisi tempor eu. Praesent mollis quam ante, a rutrum ipsum commodo tincidunt. Nam porta metus nulla, quis euismod odio hendrerit id. In suscipit lorem eget congue luctus. Cras quis rutrum neque.
+   .listado-iconos
+      .container.mt5.py-5.text-center
+         .row
+            .col-md-4
+               img(src="img/icono_seguridad.svg", class="img-fluid mb-4")
+               h2.mb-4 Seguridad
+               p Fusce vel nisi risus. Nulla aliquet lobortis magna sit amet aliquet. Sed aliquam accumsan consectetur.
+            .col-md-4
+               img(src="img/icono_destinos.svg", class="img-fluid mb-4")
+               h2.mb-4 Mejores destinos
+               p Fusce vel nisi risus. Nulla aliquet lobortis magna sit amet aliquet. Sed aliquam accumsan consectetur.
+            .col-md-4
+               img(src="img/icono_precios.svg", class="img-fluid mb-4")
+               h2.mb-4 Mejor precio
+               p Fusce vel nisi risus. Nulla aliquet lobortis magna sit amet aliquet. Sed aliquam accumsan consectetur.
